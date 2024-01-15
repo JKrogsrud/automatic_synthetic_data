@@ -10,5 +10,6 @@ numerical data that has a large variety of possibilities. I used my method, desc
 synthetic data set for the adult dataset of equal length. The primary strategy behind my approach is to
 create a Bayesian network to analyze the most likely causal relationships between the columns. For this, I
 used the bnlearn python library. Using this graph, I pruned it until I had something resembling a tree or a
-forest in the case of multiple root nodes. From the edges of the graph, I created marginals and used a
-similar method from class to populate all columns of the new synthetic data.
+forest in the case of multiple root nodes. From the edges of the graph, I created multiple two-way marginals 
+corresponding to the nodes of each edge. These marginals are made differentially private using the laplace
+mechanism and synthetic data is created using these marginals.
