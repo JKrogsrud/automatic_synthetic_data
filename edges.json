@@ -1,0 +1,50 @@
+[
+  [
+    "Education-Num",
+    "Education"
+  ],
+  [
+    "Education",
+    "Occupation"
+  ],
+  [
+    "Education",
+    "Target"
+  ],
+  [
+    "Occupation",
+    "Sex"
+  ],
+  [
+    "Occupation",
+    "Workclass"
+  ],
+  [
+    "Occupation",
+    "Relationship"
+  ],
+  [
+    "Sex",
+    "Marital Status"
+  ],
+  [
+    "Marital Status",
+    "Age"
+  ],
+  [
+    "Country",
+    "Race"
+  ],
+  [
+    "Target",
+    "Capital Gain"
+  ],
+  [
+    "Target",
+    "Hours per week"
+  ],
+  [
+    "Target",
+    "Capital Loss"
+  ]
+]
